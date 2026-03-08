@@ -13,13 +13,12 @@ def clear():
 
 def menu():
     print (colorama.Fore.RED + """
-                                    ██╗  ██╗ █████╗ ███████╗██╗   ██╗ ██████╗
-                                    ██║  ██║██╔══██╗╚════██║██║   ██║██╔════╝
-                                    ███████║███████║  ███╔═╝██║   ██║╚█████╗ 
-                                    ██╔══██║██╔══██║██╔══╝  ██║   ██║ ╚═══██╗
-                                    ██║  ██║██║  ██║███████╗╚██████╔╝██████╔╝
-                                    ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ """)
-    print ("https://github.com/FlashGriefs/Hazus\n")
+                        __   __ __   __  ____
+                        \ \ / / \ \ / / |_  /
+                         \ V /   \ V /   / / 
+                          \_/     |_|   /___|
+                                             """)
+    print ("https://discord.gg/udUpvtMzb8")
 
 async def asynccprint(text, type):
     if type == 0:
@@ -39,4 +38,5 @@ def cprint(text, type):
     if type == 2:
         print (colorama.Fore.LIGHTBLACK_EX + "[" + colorama.Fore.YELLOW + "Warn" + colorama.Fore.LIGHTBLACK_EX + "] " + colorama.Fore.CYAN + text)
     if type == 3:
+
         print (colorama.Fore.LIGHTBLACK_EX + "[" + colorama.Fore.RED + "Hazus" + colorama.Fore.LIGHTBLACK_EX + "] " + colorama.Fore.CYAN + text)
